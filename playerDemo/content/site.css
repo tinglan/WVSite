@@ -1,0 +1,104 @@
+html { 
+	height: 100%; 
+}
+
+body { 
+	height: 100%; 
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	font-family: Palatino, Palatino Linotype, Serif;
+}
+
+.container {
+     margin: 0px auto;
+    clear: both;
+}
+
+
+.banner {
+     padding: 10px;
+     float: left;
+  }
+
+img {
+	border: 0px;
+}
+
+.home-image {
+	width: 140px;
+	height: 209px;
+}
+
+.detail-image {
+	width: 214px;
+	height: 317px;
+}
+
+.play-image {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: -120px; 
+	left: -165px; 
+	z-index: 1;
+}
+
+
+.title {
+	text-align: center;
+}
+.video-title {
+	width: 50%;
+}
+a img{
+	outline: none;
+}
+
+div.preview-left {
+    float: left;
+    width: 50%;
+}
+
+div.preview-right {
+    float: right;
+    width: 50%;
+}
+
+td.preview-headers {
+	width: 30%;
+}
+
+
+@media only screen and (max-width: 850px) {
+	.home-image {
+		width: 168px;
+		height: 251px;
+	}
+
+}
+@media only screen and (max-width: 650px) {
+	body {
+		margin: 0px;
+	}
+	.home-image {
+		width: 140px;
+		height: 209px;
+	}
+
+	.video-title {
+		position: relative;
+		top: 0px; 
+		left: 0px; 
+	}
+
+	div.preview-left {
+	    float: none;
+	    width: 100%;
+	}
+
+	div.preview-right {
+	    float: none;
+	    width: 100%
+	}
+}

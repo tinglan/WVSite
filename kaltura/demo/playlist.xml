@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+	<vid src="debug" desc="debug"/>
+<vid src="----- PROD -----" desc="Prod Enc"/>
+<vid src="http://localhost/kaltura/demo/PruebaBabioles_3G_L_en_nosub4.wvm" desc="PROD Enc"/>
+<vid src="----- STAGE -----" desc="Stage Enc"/>
+<vid src="http://localhost/kaltura/demo/PruebaBabioles_3G_L_en_nosub3.wvm" desc="STAGEEnc"/>
+</playlist>
